@@ -1,0 +1,22 @@
+.card-details2 {
+  width: 100%;
+  /* max-width: 100%; */
+  /* min-width: 100px; */
+  position: relative;
+  height: 100%;
+  float: left;
+  clear: left;
+}
+
+.faq-card {
+  width: 100%;
+  text-align: left;
+  padding: 2rem;
+  height: auto;
+  margin: 2rem 0;
+}
+
+.question-faq {
+  display: flex;
+  flex-direction: row;
+}

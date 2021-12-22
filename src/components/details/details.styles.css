@@ -1,0 +1,108 @@
+.details {
+  height: 120vh;
+  /* user-select: none; */
+  /* max-width: 10vw !important; */
+  padding: 0 5vw;
+}
+.top {
+  margin-right: 0;
+}
+.btn {
+  width: 50vw;
+  background-color: blue;
+  opacity: 1 !important;
+  z-index: 9999;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.btn-primary {
+  font-size: 2vw !important;
+}
+/* .detail-header {
+  width: 10%;
+} */
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-around;
+}
+.image-fish {
+  transform: rotate(-10deg);
+  width: 35vw;
+  position: absolute;
+
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.behind-text {
+  position: relative;
+  color: black;
+  font-family: fantasy;
+  font-size: 8vw;
+  bottom: 10vh !important;
+  z-index: -1;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.top-text {
+  position: relative;
+  font-family: fantasy;
+  color: black;
+  font-size: 8vw;
+  z-index: 1;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 25%;
+}
+
+.bottom {
+  position: absolute;
+  /* padding-top: 20vh; */
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  /* justify-content: space-around; */
+}
+.title-bottom {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vw;
+}
+.title-details {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.flexbox-manual {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  right: 0;
+  width: 50vw;
+}
+.d-flex {
+  width: 100%;
+}
+
+.button-sizing {
+  width: 20vw;
+  /* height: 6v/h; */
+  /* align-content: center; */
+  /* text-align: center; */
+  /* flex: 2 1 0; */
+}

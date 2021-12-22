@@ -1,0 +1,11 @@
+.glance {
+  height: 100vh;
+}
+.glance-image {
+  width: 90vw;
+  max-height: 70vh;
+  border-radius: 100px !important;
+  padding: 15px;
+  opacity: 1 !important;
+  z-index: 9999;
+}

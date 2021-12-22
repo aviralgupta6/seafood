@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { useRef } from "react";
+import AppBar from "./components/app-bar/app-bar.component";
+import Background from "./components/background/background.component";
+import Category from "./components/category/category.component";
+import Details from "./components/details/details.component";
+import Glance from "./components/glance/glance.component";
+import Faq from "./components/faq/faq.component";
+import HaveARead from "./components/haveread/have-a-read.component";
+import Topics from "./components/topics/topics.component";
+import Footer from "./components/footer/footer.component";
+import FixedButton from "./components/fixed-button/fixed-button.component";
 function App() {
+  const detailsRef = useRef(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      <Background />
+      <AppBar />
+      <div className="clearfix">
+        <Details ref={detailsRef} />
+        <Category />
+        <Glance />
+        <Faq />
+        <HaveARead />
+        <Topics />
+        <FixedButton />
+        <Footer />
+      </div>
     </div>
   );
 }

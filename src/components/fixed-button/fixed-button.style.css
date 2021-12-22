@@ -1,0 +1,38 @@
+.button-position-footer-fix {
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.container-box {
+  width: 20vw;
+  height: 10vh;
+}
+.container-background {
+  display: flex;
+  position: fixed;
+  bottom: 5vh;
+  /* text-align: center; */
+  width: 9vw;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  border-radius: 1vw;
+  opacity: 0;
+  z-index: 9998;
+  transform: translateY(-100%);
+}
+
+.container-background a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-background > * {
+  /* padding: 1rem; */
+}
+
+.container-background:hover {
+  transform: translateY(0);
+  opacity: 0.8;
+  bottom: 5vh;
+}

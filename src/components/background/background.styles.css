@@ -1,0 +1,11 @@
+.homepage-bgimage {
+  background: url("https://s3-alpha-sig.figma.com/img/3529/21b3/5cbf1ff48954801a19fe8c24b52f64ff?Expires=1641168000&Signature=Z21fQwIvcIsnwZ5ejOVGKU0z84SMUesiTmSdldbXPuE21NTkXtGLiNUwRR6NU2x2oohzTDzu5sCIFEwUmgF8Xc-lORRuOSl0zjs5BVj7NcHphdVswJPHFVHYYcmLTMkxRNTQPLIZDZJ1zbcMDSDt-qkUuoQR8iCbJLLvHHnFa0mRld398WFPPSfd3crRijOEEnVgLwTzVuo2xPX4VeOmPCuXNS0hY4FbkXLzSTvbxprirQai19ozWX4hgNn5mjwXHq53TI~FiCQvRDpE2sKSuwMo9lAOMId1DV4HPj~IRT0bJeRoA8~FB2UZpDER1xryDfieKYDrnRsduvM32YFsXg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  padding: 0 3%;
+  /* background-color: red; */
+  position: fixed;
+}

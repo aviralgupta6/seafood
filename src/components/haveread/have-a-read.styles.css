@@ -1,0 +1,17 @@
+.card-details1 {
+  width: 100%;
+  /* max-width: 100%; */
+  /* min-width: 100px; */
+  position: relative;
+  height: 100%;
+  float: left;
+  clear: left;
+}
+
+.read-card {
+  width: 100%;
+  text-align: left;
+  padding: 2rem;
+  height: 35vh;
+  margin: 2rem 0;
+}
