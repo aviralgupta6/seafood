@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/seafood/static/css/main.451eceff.css",
+    "main.js": "/seafood/static/js/main.dd76197a.js",
+    "static/js/787.6e7417d6.chunk.js": "/seafood/static/js/787.6e7417d6.chunk.js",
+    "static/media/glance.png": "/seafood/static/media/glance.aceda9b36b497589777f.png",
+    "index.html": "/seafood/index.html",
+    "main.451eceff.css.map": "/seafood/static/css/main.451eceff.css.map",
+    "main.dd76197a.js.map": "/seafood/static/js/main.dd76197a.js.map",
+    "787.6e7417d6.chunk.js.map": "/seafood/static/js/787.6e7417d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.451eceff.css",
+    "static/js/main.dd76197a.js"
+  ]
+}
